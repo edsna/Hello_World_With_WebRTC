@@ -1,0 +1,43 @@
+body {
+  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+  text-align: left;
+}
+.h1{
+  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+  text-align: center;
+}
+
+.videoClass { 
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+
+video {
+  
+}
+
+.paragraph{
+	font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+	display: inline-block;
+	line-height: 1.6;
+}
+
+.test{
+	background-color: #e8eaed;
+}
+/*Filters to video in stream
+video {
+  filter: blur(4px) invert(1) opacity(0.5);
+}
+*/
+
+/*SVG filters to video in stream
+video {
+   filter: hue-rotate(180deg) saturate(200%);
+ }
+ */
+
+ 

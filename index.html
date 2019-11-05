@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello World with WebRTC</title>
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+
+	<body>
+
+	 	<h1 class = "h1">Realtime communication with WebRTC</h1>
+		 	
+	 	<video class = "videoClass" autoplay playsinline> </video>
+
+	 	<p class="paragraph"> Hi, 
+		 		Welcome to my "Hello World" web Application using webRTC.
+		 		This sample uses the <code class ="test">getUserMedia() </code> method to request permission from a user to use their camera,
+		 		and streams the content captured by the camera when permission is granted.
+
+		 		Please, remember that in order to run this sample code and have your camera accessible, you need to have it on your (local) web server. Clicking on the html link alone will only load the layout of the page. This is because the browser will block the <code class ="test"> getUserMedia API </code> if you don't serve it from a local web server. Even in the case of a web server, you need to 'allow' this permission when prompted because this option is desabled by default. If you don't have server space, I would strongly recommend using the <code class ="test"> Google Chrome's Web Server Extension</code>, it is extremely easy to work with. 
+
+		 		Find the source code on my GitHub <a href="https://www.w3schools.com/html/">here</a>
+		 </p>
+	 	<script src="js/main.js"></script>
+	</body>
+
+</html>
